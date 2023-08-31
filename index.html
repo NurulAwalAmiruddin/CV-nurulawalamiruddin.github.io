@@ -1,80 +1,360 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-    <link rel="stylesheet" href="fontawesome/css/all.css">
-    <title>CV Nurul Awal Amiruddin</title>
-  </head>
-  <body>
-  <div class="container">
-    <div>
-      <div class="title">
-        <img class="foto" src="img/awal.jpeg" alt="Nurul Awal Amiruddin">
-        <h1>Nurul Awal Amiruddin</h1>
-        <h3>IT Helpdesk dan Asset</h3>
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+  <!-- Bootsstrap Icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css" />
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Pacifico&display=swap"
+    rel="stylesheet">
+  <!-- Akhir font -->
+
+  <!-- My CSS  -->
+  <link rel="stylesheet" href="style.css" />
+
+  <title>Latihan 1</title>
+</head>
+
+<body id="home">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Nurul Awal Amiruddin</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#trainings">My Trainings</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#certificates">Certificates</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
       </div>
     </div>
-    <div>
-      <div class="tentang">
-        <h4>About Me</h4>
-        <p> <b>Analisa, cepat belajar sesuatu yang baru, tidak mudah putus asa</b></p>
-      </div> 
-    </div>
-      <div class="row">
-        <div class="col-4">
-          <hr style="height: 10px;border-width:0;color:gray;background-color:rgb(38, 63, 103);">
-            <div class="card-body p-0">
-              <h5 class="card-title">INFO PRIBADI</h5>
-              <p class="card-text">Tempat Lahir : Ujung Pandang <br> Lahir : 16 Januari 1987 <br> Status : Menikah <br> Agama : Islam<br> Alamat : JL Datuk Ditiro No 18 </p>
-              <h5 class="card-title">INFO KONTAK</h5>
-              <p class="card-text">Email : nurulawalamiruddin10@gmail.com <br> No HP : 08114117771 <br> Telp Rumah : 0411448281 </p>
-              <h5 class="card-title">RIWAYAT AKADEMIS</h5>
-            <p class="card-text">
-              <h5>Universitas Islam Makassar</h5><h6>SarjanaTeknik | 2011-2013</h6>Teknik Informatika <br>Ipk 3.07</p>
-            <h5 class="card-title">RIWAYAT NON AKADEMIS</h5>
-            <p class="card-text">
-              <h5>Back End Web Development</h5>Makassar Coding 2022<h5>Front End Web Development</h5>Makassar Coding 2021<h5>Mikrotik Fundamental</h5> Wibis 2017 <h5>Cisco Fundamental</h5>Wibis 2017 <h5>Autocad</h5>Widyaloka 2012</p>
-              <h5 class="card-title">KEAHLIAN</h5>
-              <p class="card-text">Analisis Problem IT <br> Front end (HTML dan CSS)(Dasar) <br> Mikrotik dan Cisco (Dasar) <br> Autocad (Dasar) <br> Management Asset </p>
-              <h5 class="card-title">PORTOFOLIO</h5>
-              <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="https://nurulawalamiruddin.github.io/awalcv.github.io" target="_blank">
-                CV Nurul Awal Amiruddin
-              </a> <br>
-              <a href="https://nurulawalamiruddin.github.io/certificate.github.io" target="_blank"">Coba bos</a>
-              <p><a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="https://nurulawalamiruddin.github.io/certificate.github.io" target="_blank">
-                Certificate
-              </a> <br>
-              </p>
-              <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="https://nurulawalamiruddin.github.io/hijab.github.io" target="_blank">
-                Web Hijab
-              </a>
-            </div>
-            <hr style="height: 10px;border-width:0;color:gray;background-color:rgb(38, 63, 103)">
+  </nav>
+  <!-- Akhir Navbar -->
+
+  <!-- Jumbotron -->
+  <section class="jumbotron text-center">
+    <img src="img/2.jpg" alt="Nurul Awal Amiruddin" width="200" class="rounded-circle img-thumbnail" />
+    <h1 class="display-4">Nurul Awal Amiruddin</h1>
+    <p class="lead"></p>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#ffffff" fill-opacity="1"
+        d="M0,96L60,90.7C120,85,240,75,360,106.7C480,139,600,213,720,208C840,203,960,117,1080,90.7C1200,64,1320,96,1380,112L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+      </path>
+    </svg>
+  </section>
+  <!-- Akhir Jumbotron -->
+
+  <!-- About -->
+  <section id="about">
+    <div class="container">
+      <div class="row text-center mb-3">
+        <div class="col">
+          <h2>About Me</h2>
         </div>
-        <div class="col-8">
-          <div class="card-body">
-            <hr style="height: 10px;border-width:0;color:gray;background-color:rgb(38, 63, 103);">
-            <h5 class="card-title">PENGALAMAN KERJA</h5>
-            <p class="card-text text-center">
-              <h5>Service Area Engineer</h5><h6>PT Visionet Data | 2014-2015</h6><p>- Maintenance dan setting perangkat PC, Printer, CCTV, Ubiquiti, aplikasi web dan aplikasi pendukung untuk user sesuai departemen masing-masing <br>- Training team untuk tata cara roll out serta pembuatan dokumen serah terima hasil pekerjaan </p>
-              <h6>Pencapaian :</h6><p>Berhasil menyelesaikan project roll out OS windows xp ke windows 7 di bank mybank dan bank mega Makassar lebih cepat dari target</p>
-              <h5>IT Helpdesk</h5><h6>PT Home Credit Indonesia | 2015-2018</h6><p>- Setup Active Directory, printer, web aplikasi, dan aplikasi pendukung lainnya di Laptop, notebook, dan tablet new joiner <br>- Problem Solving untuk permasalahan terkait printer, laptop, web aplikasi, aplikasi much, active directory <br>- Monitoring barang keluar masuk gudang, stock opname dan mengupdate data ditemplate data stock, monitoring status asset dan memisahkan asset rusak dan baik, kanibal hardware laptop agar bisa digunakan kembali, report by email ke HO terkait deduction user lalu menginformasikan kembali ke user untuk nilai deduction nya, handover asset IT dengan new joiner dan exit clearance user yang telah berakhir di perusahaan<br>- Monitoring Ticket JIRA, followup ticket jira dan update statusnya</p>
-              <h5>Sr IT Helpdesk</h5><h6>PT Home Credit Indonesia | 2018-2022</h6><p>- Setup Active Directory, printer, web aplikasi, dan aplikasi pendukung lainnya di Laptop, notebook, dan tablet new joiner <br>- Problem Solving untuk permasalahan terkait printer, laptop, web aplikasi, aplikasi much, active directory <br>- Monitoring barang keluar masuk gudang, stock opname dan mengupdate data ditemplate data stock, monitoring status asset dan memisahkan asset rusak dan baik, kanibal hardware laptop agar bisa digunakan kembali, report by email ke HO terkait deduction user lalu menginformasikan kembali ke user untuk nilai deduction nya, Handover asset IT dengan new joiner dan exit clearance user yang telah berakhir di perusahaan <br>- Monitoring Ticket JIRA team timur, followup ticket jira dan update statusnya <br>- Invite meeting team timur dan melaporkan hasil meeting ke manager</p>
-              <h6>Pencapaian :</h6><p>- Membantu penyelesaian project kantor baru PT Home Credit Indonesia di Makassar <br>- Menyelesaikan project disposal asset <br>- Project panduan instalasi tablet untuk new joiner <br>- Melakukan pengecekan untuk project modem baru di Makassar dan membuat laporan dari hasil pengecekan ke VP Sales dan VP IT <br>- Project instalasi aplikasi baru di notebook sales <br>- Project penarikan asset yang digunakan SA</p>
-            </p>
-              <hr style="height: 10px;border-width:0;color:gray;background-color:rgb(38, 63, 103);">
+      </div>
+      <div class="row justify-content-center fs-5 text-juctify">
+        <div class="col-md-3" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+          <h3>Pendidikan</h3>
+          <ol>
+            <li>
+              <p>1999 : SD Negeri Kalukuang I Makassar.</p>
+            </li>
+            <li>
+              <p>2003 : SMP Negeri 10 Makassar.</p>
+            </li>
+            <li>
+              <p>2005 : SMU Negeri 5 Makassar.</p>
+            </li>
+            <li>
+              <p>2005 : 2013 : Universitas Islam Makassar (UIM).</p>
+            </li>
+          </ol>
+        </div>
+        <div class="col-md-4" data-aos="fade-down" data-aos-duration="1500">
+          <h3>Pengalaman Kerja</h3>
+          <ol>
+            <li>
+              <p>2008 - 2011 : Teknisi di Anugrah Net.</p>
+            </li>
+            <li>
+              <p>2014 - 2015 : SAE / DSN di PT. Visionet Internasional Tbk dan di tempatkan sebagai IT Support pada Bank
+                Internasional Indonesia (BII) Makassar serta mengerjakan project roll out di bank mega.</p>
+            </li>
+            <li>
+              <p>2015 - sekarang : IT Helpdesk officer makassar PT Home Credit Indonesia.</p>
+            </li>
+          </ol>
+        </div>
+        <div class="col-md-2" data-aos="fade-left" data-aos-duration="1500">
+          <h3>Hobby</h3>
+          <ol>
+            <li>
+              <p>Mancing.</p>
+            </li>
+            <li>
+              <p>Main Game.</p>
+            </li>
+            <li>
+              <p>Futsal.</p>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#e2edff" fill-opacity="1"
+        d="M0,0L60,42.7C120,85,240,171,360,197.3C480,224,600,192,720,154.7C840,117,960,75,1080,64C1200,53,1320,75,1380,85.3L1440,96L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+      </path>
+    </svg>
+  </section>
+  <!-- Akhir About -->
+
+  <!-- Trainings -->
+  <section id="trainings">
+    <div class="container">
+      <div class="row text-center mb-3">
+        <div class="col">
+          <h2>My Trainings</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-4 mb-3">
+          <div class="card h-100" data-aos="flip-left" style="width: 100%">
+            <img src="img/Projects/1.jpg" class="card-img-top" alt="Projects" />
+            <div class="card-body">
+              <p class="card-text text-center">Training Front End di Makassar Cooding.</p>
+            </div>
           </div>
         </div>
-      </div>  
+        <div class="col-md-4 mb-3">
+          <div class="card h-100" data-aos="flip-left" data-aos-duration="1500" data-aos-delay="100"
+            style="width: 100%">
+            <img src="img/Projects/2.jpg" class="card-img-top" alt="Projects" />
+            <div class="card-body">
+              <p class="card-text text-center">Training Mikrotik MTCNA di Wibis.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card h-100" data-aos="flip-left" data-aos-duration="1500" data-aos-delay="200"
+            style="width: 100%">
+            <img src="img/Projects/3.jpg" class="card-img-top" alt="Projects" />
+            <div class="card-body">
+              <p class="card-text text-center">Training Cisco Fundamental di Wibis.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-  <footer>© 2020 <b> <i>Nurul Awal Amiruddin</i> </b></footer>
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
-  </body>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#ffffff" fill-opacity="1"
+        d="M0,96L60,128C120,160,240,224,360,213.3C480,203,600,117,720,74.7C840,32,960,32,1080,53.3C1200,75,1320,117,1380,138.7L1440,160L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+      </path>
+    </svg>
+  </section>
+  <!-- Akhir Trainings -->
+
+  <!-- Certificate -->
+  <section id="certificates">
+    <div class="container">
+      <div class="row text-center mb-3">
+        <div class="col">
+          <h2>My Certificate</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-4 mb-3">
+          <div class="card h-100" data-aos="flip-left" style="width: 100%">
+            <img src="img/Certificate/1.jpg" class="card-img-top" alt="Certificate" />
+            <div class="card-body">
+              <p class="card-text text-center">Certificate Udemy Leadership.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card h-100" data-aos="flip-left" data-aos-duration="1500" data-aos-delay="100"
+            style="width: 100%">
+            <img src="img/Certificate/2.jpg" class="card-img-top" alt="Certificate" />
+            <div class="card-body">
+              <p class="card-text text-center">Certificate CISCO.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card h-100" data-aos="flip-left" data-aos-duration="1500" data-aos-delay="200"
+            style="width: 100%">
+            <img src="img/Certificate/3.jpg" class="card-img-top" alt="Certificate" />
+            <div class="card-body">
+              <p class="card-text text-center">Certificate Excel Pivot Tables - Excel 2016.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card h-100" data-aos="flip-left" data-aos-duration="1500" data-aos-delay="300"
+            style="width: 100%">
+            <img src="img/Certificate/4.jpg" class="card-img-top" alt="Certificate" />
+            <div class="card-body">
+              <p class="card-text text-center">Certificate MICROTIK.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card h-100" data-aos="flip-left" data-aos-duration="1500" data-aos-delay="400"
+            style="width: 100%">
+            <img src="img/Certificate/5.jpg" class="card-img-top" alt="Certificate" />
+            <div class="card-body">
+              <p class="card-text text-center">Certificate Mikrotik Switching - Spanning Tree Protocol.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card h-100" data-aos="flip-left" data-aos-duration="1500" data-aos-delay="500"
+            style="width: 100%">
+            <img src="img/Certificate/6.jpg" class="card-img-top" alt="Certificate" />
+            <div class="card-body">
+              <p class="card-text text-center">Certificate MTCNA.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card h-100" data-aos="flip-left" data-aos-duration="1500" data-aos-delay="600"
+            style="width: 100%">
+            <img src="img/Certificate/7.jpg" class="card-img-top" alt="Certificate" />
+            <div class="card-body">
+              <p class="card-text text-center">Certificate Practical Leadership Skills.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card h-100" data-aos="flip-left" data-aos-duration="1500" data-aos-delay="700"
+            style="width: 100%">
+            <img src="img/Certificate/8.jpg" class="card-img-top" alt="Certificate" />
+            <div class="card-body">
+              <p class="card-text text-center">Certificate Mikrotik Fundamental.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card h-100" data-aos="flip-left" data-aos-duration="1500" data-aos-delay="800"
+            style="width: 100%">
+            <img src="img/Certificate/9.jpg" class="card-img-top" alt="Certificate" />
+            <div class="card-body">
+              <p class="card-text text-center">Certificate Starting an ISP With Mikrotik.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card h-100" data-aos="flip-left" data-aos-duration="1500" data-aos-delay="900"
+            style="width: 100%">
+            <img src="img/Certificate/10.jpg" class="card-img-top" alt="Certificate" />
+            <div class="card-body">
+              <p class="card-text text-center">Certificate The Complete AutoCAD 2016 Course.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#e2edff" fill-opacity="1"
+        d="M0,0L60,42.7C120,85,240,171,360,197.3C480,224,600,192,720,154.7C840,117,960,75,1080,64C1200,53,1320,75,1380,85.3L1440,96L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+      </path>
+    </svg>
+  </section>
+  <!-- Akhir Certificate -->
+
+  <!-- Contact -->
+
+  <section id="contact">
+    <div class="container">
+      <div class="row text-center mb-3">
+        <div class="col">
+          <h2>Contact Me</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Nama Lengkap</label>
+              <input type="text" class="form-control" id="name" aria-describedby="name" />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" aria-describedby="email" />
+            </div>
+            <div class="mb-3">
+              <label for="pesan" class="form-label">Pesan</label>
+              <textarea class="form-control" id="pesan" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Kirim</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#0d6efd" fill-opacity="1"
+        d="M0,192L40,181.3C80,171,160,149,240,154.7C320,160,400,192,480,213.3C560,235,640,245,720,234.7C800,224,880,192,960,186.7C1040,181,1120,203,1200,208C1280,213,1360,203,1400,197.3L1440,192L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
+      </path>
+    </svg>
+  </section>
+  <!-- Akhir Contact -->
+
+  <!-- Footer -->
+  <footer class="bg-primary text-white text-center pb-5">
+    <p>Created with <i class="bi bi-suit-heart-fill text-danger"></i> by <a href="https://www.facebook.com/"
+        class="text-white fw-bold">Nurul Awal Amiruddin</a></p>
+  </footer>
+  <!-- Akhir Footer -->
+
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      once: true,
+    });
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/TextPlugin.min.js"></script>
+  <script>
+    gsap.registerPlugin(TextPlugin);
+    gsap.to(".lead", { duration: 2, delay: 2.4, text: "Networking | Front end Development" });
+    gsap.from(".jumbotron img", { duration: 3, rotateY: 360, opacity: 0, ease: "bounce" });
+    gsap.from(".navbar", { duration: 1.5, y: "-100%", opacity: 0, ease: "bounce" });
+    gsap.from(".display-4", { duration: 1, x: "-50", opacity: 0, delay: 2.2, ease: "back" });
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
